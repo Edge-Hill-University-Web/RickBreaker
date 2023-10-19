@@ -37,7 +37,7 @@ class RickBreaker extends Phaser.Scene {
 
 
     //const graphics = this.add.graphics();
-    this.ricka = this.physics.add.sprite(400, 300, 'ricka').setScale(4);
+    this.ricka = this.physics.add.sprite(400, 300, 'ricka').setScale(4.3);
 
     //Rick roll 'em
     this.rickRolled = this.sound.add('rick');
